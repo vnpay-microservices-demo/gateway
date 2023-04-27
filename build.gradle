@@ -17,6 +17,8 @@ ext {
 }
 
 dependencies {
+	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-ribbon
+	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-ribbon:2.2.4.RELEASE'
 	implementation 'org.springframework.cloud:spring-cloud-starter-gateway'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
